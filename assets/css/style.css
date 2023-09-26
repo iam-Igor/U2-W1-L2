@@ -99,33 +99,6 @@ aside div {
   opacity: 40%;
 }
 
-@media screen and (max-width: 1199px) {
-  header .brand img {
-    margin-bottom: 20px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  header {
-    text-align: left;
-  }
-  header .brand,
-  header nav,
-  header .brand p {
-    display: inline-block;
-  }
-
-  header .brand {
-    width: 75%;
-  }
-  header .brand img {
-    vertical-align: middle;
-  }
-  header .brand p {
-    margin-bottom: 0;
-  }
-}
-
 header nav ul {
   margin: 0;
 }
@@ -154,62 +127,6 @@ main {
   box-shadow: 0 3px 3px #444;
   padding: 2em 1em;
   margin-bottom: 1.5em;
-}
-@media screen and (min-width: 800px) {
-  main {
-    padding: 2em;
-  }
-
-  .underline {
-    position: absolute;
-    width: 80%;
-    bottom: 62%;
-    z-index: 0;
-  }
-
-  section h2 {
-    z-index: 1;
-    position: absolute;
-    top: -13px;
-    left: 30px;
-  }
-
-  .fa-tag::before {
-    top: 9px;
-    right: 0;
-    position: absolute;
-    font-size: 2em;
-    opacity: 40%;
-  }
-
-  .add,
-  .calendar,
-  .go-up {
-    width: 3em;
-    text-align: center;
-    margin-top: 40px;
-    padding: 2px;
-    border: 4px solid white;
-    background-color: rgba(255, 255, 255, 0.4);
-    -webkit-backdrop-filter: blur(10px);
-    backdrop-filter: blur(5px);
-  }
-
-  .far {
-    font-size: 2em;
-    color: #406bcc;
-  }
-
-  .go-up i {
-    color: #fa4959;
-  }
-  .go-up {
-    margin-top: 930px;
-  }
-
-  #icons-container {
-    z-index: 2;
-  }
 }
 
 section {
@@ -299,21 +216,6 @@ h1 + p {
   }
 }
 
-@media screen and (min-width: 700px) {
-  h1 {
-    font-size: 3.6rem;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  body {
-    line-height: 2;
-  }
-  section {
-    border-radius: 20px;
-  }
-}
-
 .imgLeft {
   margin-right: 20px;
   border: 4px solid #00a0c6;
@@ -342,6 +244,289 @@ iframe {
   height: auto;
   margin-bottom: 2em;
   border-radius: 20px;
+}
+
+/* TABELLE */
+table {
+  margin-bottom: 2em;
+}
+@media screen and (min-width: 500px) {
+  table {
+    margin: 0 auto 2em;
+  }
+}
+
+@media screen and (min-width: 500px) {
+  input {
+    display: inline-block;
+    width: 70%;
+  }
+}
+@media screen and (min-width: 700px) {
+  table {
+    width: 70%;
+    margin-block-start: 5rem;
+    margin-block-end: 6rem;
+  }
+
+  .underline {
+    position: absolute;
+    width: 80%;
+    bottom: 60%;
+    z-index: 0;
+  }
+
+  .go-up {
+    margin-top: 115px;
+  }
+
+  section h2 {
+    z-index: 1;
+    position: absolute;
+    top: -13px;
+    left: 30px;
+  }
+
+  header {
+    z-index: 2;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  h1 {
+    font-size: 3.6rem;
+  }
+}
+
+caption {
+  font-weight: bold;
+  font-style: italic;
+}
+thead tr {
+  background-color: #3f6bca;
+  color: #ffffff;
+}
+th,
+td {
+  padding: 12px 15px;
+  vertical-align: bottom;
+  text-align: center;
+}
+tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+tbody tr:last-of-type {
+  border-bottom: 2px solid #3f6bca;
+}
+
+/* FORM */
+input {
+  padding: 5px;
+  border: 0;
+  border-bottom: 1px dashed #333;
+}
+button {
+  padding: 4px 7px;
+  background-color: #3f6bca;
+  border: 0;
+  color: white;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 700px) {
+  input {
+    padding: 15px;
+  }
+  button {
+    padding: 15px 30px;
+  }
+}
+
+/* ELEMENTI NELL' ASIDE */
+aside h2 {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+aside div {
+  background-color: #e3e3e3;
+  border: 1px solid #c3c3c3;
+  margin-bottom: 1em;
+  padding: 1em;
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    padding: 2em;
+  }
+
+  .underline {
+    position: absolute;
+    width: 80%;
+    bottom: 62%;
+    z-index: 0;
+  }
+
+  section h2 {
+    z-index: 1;
+    position: absolute;
+    top: -13px;
+    left: 30px;
+  }
+
+  .fa-tag::before {
+    top: 9px;
+    right: 0;
+    position: absolute;
+    font-size: 2em;
+    opacity: 40%;
+  }
+
+  .add,
+  .calendar,
+  .go-up {
+    width: 3em;
+    text-align: center;
+    margin-top: 40px;
+    padding: 2px;
+    border: 4px solid white;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(5px);
+  }
+
+  .far {
+    font-size: 2em;
+    color: #406bcc;
+  }
+
+  .go-up i {
+    color: #fa4959;
+  }
+  .go-up {
+    margin-top: 930px;
+  }
+
+  #icons-container {
+    z-index: 2;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  footer {
+    padding: 1em 12em;
+  }
+
+  .underline {
+    position: absolute;
+    width: 80%;
+    bottom: 59%;
+    z-index: 0;
+  }
+
+  .go-up {
+    margin-top: 115px;
+  }
+
+  section h2 {
+    z-index: 1;
+    position: absolute;
+    top: -13px;
+    left: 30px;
+  }
+
+  header {
+    z-index: 2;
+  }
+}
+
+footer a {
+  color: fuchsia;
+}
+
+@media screen and (min-width: 840px) {
+  .underline {
+    position: absolute;
+    width: 80%;
+    bottom: -21%;
+    z-index: 0;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .underline {
+    position: absolute;
+    width: 80%;
+    bottom: 49%;
+    z-index: 0;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  header .brand img {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    text-align: left;
+  }
+  header .brand,
+  header nav,
+  header .brand p {
+    display: inline-block;
+  }
+
+  header .brand {
+    width: 75%;
+  }
+  header .brand img {
+    vertical-align: middle;
+  }
+  header .brand p {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header,
+  main,
+  footer {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    line-height: 2;
+  }
+  section {
+    border-radius: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  aside div {
+    display: inline-block;
+    width: 33.333%;
+    margin-inline: -2px;
+  }
+}
+aside div p:last-child {
+  margin-bottom: 0;
+  font-size: 0.8em;
+  text-align: right;
 }
 
 @media screen and (min-width: 1200px) {
@@ -399,128 +584,6 @@ iframe {
   }
 }
 
-/* TABELLE */
-table {
-  margin-bottom: 2em;
-}
-@media screen and (min-width: 500px) {
-  table {
-    margin: 0 auto 2em;
-  }
-}
-@media screen and (min-width: 700px) {
-  table {
-    width: 70%;
-    margin-block-start: 5rem;
-    margin-block-end: 6rem;
-  }
-
-  .underline {
-    position: absolute;
-    width: 80%;
-    bottom: 60%;
-    z-index: 0;
-  }
-
-  .go-up {
-    margin-top: 115px;
-  }
-
-  section h2 {
-    z-index: 1;
-    position: absolute;
-    top: -13px;
-    left: 30px;
-  }
-
-  header {
-    z-index: 2;
-  }
-}
-
-caption {
-  font-weight: bold;
-  font-style: italic;
-}
-thead tr {
-  background-color: #3f6bca;
-  color: #ffffff;
-}
-th,
-td {
-  padding: 12px 15px;
-  vertical-align: bottom;
-  text-align: center;
-}
-tbody tr {
-  border-bottom: 1px solid #dddddd;
-}
-
-tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
-}
-
-tbody tr:last-of-type {
-  border-bottom: 2px solid #3f6bca;
-}
-
-/* FORM */
-input {
-  padding: 5px;
-  border: 0;
-  border-bottom: 1px dashed #333;
-}
-button {
-  padding: 4px 7px;
-  background-color: #3f6bca;
-  border: 0;
-  color: white;
-  font-weight: bold;
-}
-@media screen and (min-width: 500px) {
-  input {
-    display: inline-block;
-    width: 70%;
-  }
-}
-@media screen and (min-width: 700px) {
-  input {
-    padding: 15px;
-  }
-  button {
-    padding: 15px 30px;
-  }
-}
-
-/* ELEMENTI NELL' ASIDE */
-aside h2 {
-  text-align: center;
-  color: #333;
-  font-size: 2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-bottom: 1em;
-}
-aside div {
-  background-color: #e3e3e3;
-  border: 1px solid #c3c3c3;
-  margin-bottom: 1em;
-  padding: 1em;
-}
-
-@media screen and (min-width: 1200px) {
-  aside div {
-    display: inline-block;
-    width: 33.333%;
-    margin-inline: -2px;
-  }
-}
-aside div p:last-child {
-  margin-bottom: 0;
-  font-size: 0.8em;
-  text-align: right;
-}
-
 /* FOOTER */
 footer {
   background: rgb(53, 53, 53);
@@ -534,48 +597,6 @@ footer {
   padding: 1em;
   text-align: center;
   font-size: 1.2rem;
-}
-
-@media screen and (min-width: 800px) {
-  footer {
-    padding: 1em 12em;
-  }
-
-  .underline {
-    position: absolute;
-    width: 80%;
-    bottom: 49%;
-    z-index: 0;
-  }
-
-  .go-up {
-    margin-top: 115px;
-  }
-
-  section h2 {
-    z-index: 1;
-    position: absolute;
-    top: -13px;
-    left: 30px;
-  }
-
-  header {
-    z-index: 2;
-  }
-}
-
-footer a {
-  color: fuchsia;
-}
-
-@media screen and (min-width: 1200px) {
-  header,
-  main,
-  footer {
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-  }
 }
 
 @media print {
