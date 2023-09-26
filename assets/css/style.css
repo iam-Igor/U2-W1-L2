@@ -23,7 +23,7 @@ hr {
 .underline {
   position: absolute;
   width: 80%;
-  bottom: 38%;
+  bottom: 94%;
   z-index: 0;
 }
 /* HEADER */
@@ -44,6 +44,9 @@ header {
   position: sticky;
   top: 0;
   z-index: 1;
+}
+article {
+  position: relative;
 }
 
 section {
@@ -368,13 +371,6 @@ aside div {
     padding: 2em;
   }
 
-  .underline {
-    position: absolute;
-    width: 80%;
-    bottom: 62%;
-    z-index: 0;
-  }
-
   section h2 {
     z-index: 1;
     position: absolute;
@@ -428,7 +424,7 @@ aside div {
   .underline {
     position: absolute;
     width: 80%;
-    bottom: 59%;
+    bottom: 91%;
     z-index: 0;
   }
 
@@ -452,7 +448,7 @@ footer a {
   .underline {
     position: absolute;
     width: 80%;
-    bottom: -21%;
+    bottom: 91%;
     z-index: 0;
   }
   .go-up {
@@ -464,7 +460,7 @@ footer a {
   .underline {
     position: absolute;
     width: 80%;
-    bottom: 49%;
+    bottom: 93%;
     z-index: 0;
   }
 
@@ -548,10 +544,9 @@ aside div p:last-child {
   .underline {
     position: absolute;
     width: 80%;
-    bottom: 50%;
+    bottom: 94%;
     z-index: 0;
   }
-
   header {
     z-index: 2;
   }
