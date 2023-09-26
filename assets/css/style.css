@@ -86,6 +86,10 @@ aside div {
   color: #fa4959;
 }
 
+footer {
+  position: relative;
+}
+
 #icons-container {
   float: right;
   position: fixed;
@@ -444,7 +448,7 @@ footer a {
   color: fuchsia;
 }
 
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 840px) and (max-width: 1179px) {
   .underline {
     position: absolute;
     width: 80%;
@@ -453,6 +457,24 @@ footer a {
   }
   .go-up {
     margin-top: 115px;
+  }
+  header {
+    background: rgb(0, 160, 198);
+    background: linear-gradient(
+      180deg,
+      rgba(0, 160, 198, 1) 0%,
+      rgba(3, 109, 134, 1) 68%
+    );
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    box-shadow: 0 3px 3px #444;
+    margin-bottom: 1.5em;
+    padding: 2em 1.5em;
+    position: initial;
+
+    z-index: 1;
   }
 }
 
