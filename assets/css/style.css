@@ -432,10 +432,6 @@ aside div {
     z-index: 0;
   }
 
-  .go-up {
-    margin-top: 115px;
-  }
-
   section h2 {
     z-index: 1;
     position: absolute;
@@ -459,6 +455,9 @@ footer a {
     bottom: -21%;
     z-index: 0;
   }
+  .go-up {
+    margin-top: 115px;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -467,6 +466,10 @@ footer a {
     width: 80%;
     bottom: 49%;
     z-index: 0;
+  }
+
+  .go-up {
+    margin-top: 115px;
   }
 }
 
