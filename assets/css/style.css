@@ -99,12 +99,6 @@ aside div {
   opacity: 40%;
 }
 
-@media screen and (min-width: 800px) {
-  header {
-    padding: 1em;
-  }
-}
-
 @media screen and (max-width: 1199px) {
   header .brand img {
     margin-bottom: 20px;
@@ -265,6 +259,23 @@ h1 + p {
     font-size: 1.4rem;
   }
 
+  header {
+    z-index: 2;
+  }
+
+  #icons-container {
+    float: right;
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+    right: -11px;
+  }
+
+  section h2 {
+    z-index: 1;
+    position: absolute;
+    top: -13px;
+  }
   h2 {
     font-size: 1.8rem;
     font-weight: 700;
@@ -369,7 +380,7 @@ iframe {
   }
 
   .go-up {
-    margin-top: 360px;
+    margin-top: 295px;
   }
 
   #icons-container {
