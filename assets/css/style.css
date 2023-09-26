@@ -155,7 +155,7 @@ main {
   padding: 2em 1em;
   margin-bottom: 1.5em;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
   main {
     padding: 2em;
   }
@@ -414,6 +414,28 @@ table {
     margin-block-start: 5rem;
     margin-block-end: 6rem;
   }
+
+  .underline {
+    position: absolute;
+    width: 80%;
+    bottom: 60%;
+    z-index: 0;
+  }
+
+  .go-up {
+    margin-top: 115px;
+  }
+
+  section h2 {
+    z-index: 1;
+    position: absolute;
+    top: -13px;
+    left: 30px;
+  }
+
+  header {
+    z-index: 2;
+  }
 }
 
 caption {
@@ -517,6 +539,28 @@ footer {
 @media screen and (min-width: 800px) {
   footer {
     padding: 1em 12em;
+  }
+
+  .underline {
+    position: absolute;
+    width: 80%;
+    bottom: 49%;
+    z-index: 0;
+  }
+
+  .go-up {
+    margin-top: 115px;
+  }
+
+  section h2 {
+    z-index: 1;
+    position: absolute;
+    top: -13px;
+    left: 30px;
+  }
+
+  header {
+    z-index: 2;
   }
 }
 
